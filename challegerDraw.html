@@ -12,26 +12,50 @@
 
 <body>
     <header class="header">
-        <figure class="header-logo">
-            <img src="JGR/logojgr.jpeg" width="120" height="50" alt="LOGO">
-        </figure>
-        <nav>
-            <li>
-                <a href="#Cubo Rubik Head">Cubo Rubik Head</a>
-            </li>
-            <li>
-                <a href="#Cubo Rubik Behind">Cubo Rubik Behind</a>
-            </li>
-        </nav>
+        <div class="container">
+            <div class="change-color">
+                <figure class="header-logo">
+                    <img src="JGR/logojgr.jpeg" width="120" height="50" alt="LOGO">
+                </figure>
+                <nav class="menu">
+                    <lo class="link">
+                        <a href="#Cubo Rubik">Cubo Rubik</a>
+                    </lo>
+                    <lo class="link">
+                        <a href="#Contact">Contact</a>
+                    </lo>
+                </nav>
+            </div>
+        </div>
     </header>
-    <section class="inicio">
-        <article>
-            <h1 class="inicio-title">Cubo Rubik</h1>
-            <canvas width="1000" height="1000" id="drawCube"></canvas>
-            <p class="inicio-paragraph">This is front of the cubo showing their colors</p>
-        </article>
+    <section id="Cubo Rubik" class="inicio">
+        <div class="container">
+            <article class="inicialized">
+                <h1 class="inicio-title">Cubo Rubik</h1>
+                <canvas width="1000" height="850" id="drawCube"></canvas>
+                <p class="inicio-paragraph">This is front of the cubo showing their colors</p>
+            </article>
+        </div>
     </section>
     <script src="draw-cubo.js"></script>
+    <div class="container">
+        <h3 class="contact-title">Contacto</h3>
+    </div>
+    <div class="container">
+        <form action="j304577061@gmail.com" class="contact">
+            <div class="input">
+                <input type="submit" placeholder="Dejame tu Email" id="email">
+                <button type="button">Enviar</button>
+            </div>
+        </form>
+    </div>
+    <footer id="Contact" class="contact">
+        <div class="container">
+            <figure class="logo-image">
+                <img src="JGR/logojgr.jpeg" width="120" height="50" alt="LOGO">
+            </figure>
+        </div>
+    </footer>
 </body>
 
 </html>

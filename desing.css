@@ -1,5 +1,160 @@
-body {}
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+}
+
+header {
+    background: #000000;
+    color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 400px;
+    color: #1af;
+}
+
+h1 {
+    font-size: 32px;
+    padding: 20px;
+    margin: 0;
+    line-height: 1.5em;
+    text-transform: uppercase;
+    color: #1af;
+    letter-spacing: -2px;
+}
 
 canvas {
-    border: 1px solid red;
+
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    color: white;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+a {
+    color: #1af;
+    text-decoration: none;
+    padding: 0 10px;
+    height: inherit;
+}
+
+li {
+    background-color: #1b2127;
+    padding: 0px 20px 0px 20px;
+
+}
+
+.header ol {
+    display: flex;
+    height: inherit;
+}
+
+.header ol li {
+    height: inherit;
+}
+
+.inicio-title {
+    color: white;
+    margin: 0;
+}
+
+.header {
+    background-color: white;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    display: flex;
+}
+
+.inicio {
+    margin: 0;
+    background: white;
+
+}
+
+.container {
+    display: inherit;
+    width: 1000px;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    justify-content: inherit;
+    align-items: inherit;
+    flex-wrap: inherit;
+    height: inherit;
+
+}
+
+.change-color {
+    display: inherit;
+    width: 1000px;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    justify-content: inherit;
+    align-items: inherit;
+    flex-wrap: inherit;
+    height: inherit;
+    background: #1a2127;
+}
+
+.inicialized {
+    background: #000000;
+    margin: 0 auto;
+}
+
+h3 {}
+
+.contact-title {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background: #1a2127;
+    margin: 0;
+    width: 980px;
+    justify-content: flex-start;
+
+    padding: 20px 0px 20px 20px;
+}
+
+.menu {
+    height: inherit;
+    width: inherit;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.input {
+    align-items: center;
+    display: flex;
+    height: inherit;
+    width: 980px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    background: #1b2127;
+}
+
+.logo-image {
+    display: flex;
+    background: #1b2127;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.contact {
+    background: white;
+    display: inherit;
+    width: inherit;
+    margin: 0 auto;
 }
