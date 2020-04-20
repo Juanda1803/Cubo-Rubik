@@ -1,6 +1,6 @@
 var element = document.getElementById('drawCube');
 var object = element.getContext('2d');
-var colorcito = '#000000';
+var colorcito = 'gray';
 var colorcito1 = 'yellow';
 var colorcito2 = 'blue';
 var colorcito3 = 'red';

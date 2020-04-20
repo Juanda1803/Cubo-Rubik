@@ -29,6 +29,10 @@ h1 {
     letter-spacing: -2px;
 }
 
+.contact-title {
+    color: #1af;
+}
+
 canvas {
 
     display: flex;
@@ -41,7 +45,7 @@ p {
     padding: 20px;
 }
 
-a {
+lo a {
     color: #1af;
     text-decoration: none;
     padding: 0 10px;
@@ -64,7 +68,7 @@ li {
 }
 
 .inicio-title {
-    color: white;
+    color: red;
     margin: 0;
 }
 
@@ -113,12 +117,15 @@ li {
     margin: 0 auto;
 }
 
-h3 {}
+h3 {
+    text-transform: capitalize;
+    color: red;
+}
 
 .contact-title {
     display: flex;
     justify-content: center;
-    color: white;
+
     background: #1a2127;
     margin: 0;
     width: 980px;
@@ -135,16 +142,6 @@ h3 {}
     align-items: center;
 }
 
-.input {
-    align-items: center;
-    display: flex;
-    height: inherit;
-    width: 980px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    background: #1b2127;
-}
-
 .logo-image {
     display: flex;
     background: #1b2127;
@@ -157,4 +154,88 @@ h3 {}
     display: inherit;
     width: inherit;
     margin: 0 auto;
+}
+
+input {
+    border-radius: 5px;
+}
+
+.contact .input {
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px 20px 10px 25px;
+    background-image: url('../imagenes/logo.jpeg');
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px;
+    display: flex;
+}
+
+.contact {
+    background-color: #1b2127;
+    color: white;
+    height: 80px;
+    width: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.contact button {
+    display: block;
+    background: transparent;
+    color: white;
+    padding: 10px 0;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.social-link {
+    display: flex;
+    width: 450px;
+    height: 60px;
+    margin: 0 20px;
+    background-size: 50px 50px;
+    background: #1b2127;
+    justify-content: space-evenly;
+}
+
+.social-link.facebook {
+    background-image: url('JGR/logo-facebook.png');
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+
+}
+
+.social-link.instagram {
+    background-image: url('JGR/logo-instagram.png');
+    background-size: 60px 60px;
+    background-repeat: no-repeat;
+}
+
+.social-link.github {
+    background-image: url('JGR/logo-github.png');
+    background-size: 70px 60px;
+    background-repeat: no-repeat;
+
+}
+
+.social-link.twitter {
+    background-image: url('JGR/Logo-Twitter.png');
+    background-size: 70px 50px;
+    background-repeat: no-repeat;
+}
+
+.input {
+    display: flex;
+}
+
+.social-link a {
+    display: flex;
+}
+
+.contact-footer {
+    background: white;
 }
