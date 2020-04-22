@@ -58,12 +58,10 @@ for (i = 1; i < limit; i++) {
 linePosition(colorcito, 500, 500, 100, 400)
 linePosition(colorcito, 500, 200, 400, 600)
 linePosition(colorcito, 500, 800, 400, 600)
-
 linePosition(colorcito, 200, 200, 300, 600)
 linePosition(colorcito, 800, 800, 300, 600)
 linePosition(colorcito, 500, 200, 100, 300)
 linePosition(colorcito, 500, 800, 100, 300)
-
 linePosition(colorcito, 200, 500, 600, 800)
 linePosition(colorcito, 800, 500, 600, 800)
 
